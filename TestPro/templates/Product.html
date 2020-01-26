@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Page Home </title>
+</head>
+<body>
+
+hello world this is product page<br>
+_________________________________________________________________________________________________<br>
+
+{% for product in products %}
+<p>
+  Product Name:-  {{ product.name }} <br>
+   Weight:- {{product.weight}} <br>
+   Price:- {{product.price}} <br>
+   Updated At:- {{product.updated_at}}<br>
+   Created At:- {{product.created_at}}<br>
+</p>
+______________________________________________________________________________________________________<br>
+
+{% endfor %}
+
+
+</body>
+</html>
